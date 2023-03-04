@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* padding: 25px 55.98px 18px 20px; */
+}
+
+.left{
+    padding-left: 20px;
+    display: flex;
+    font-family: 'Ruda';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 1.45vw;
+    align-items: center;
+    letter-spacing: 6%;
+    /* padding-right: 50px; */
+}
+
+.mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+}
+
+.mid > div {
+    color: #ffffff;
+    font-family: 'Ruda';
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 1.2vw;
+    text-align: center;
+    vertical-align: center;
+    padding-right: 10px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    border-radius: 18px;
+    scale: fill;
+}
+
+.right .ig{
+    padding-left: -4vw;
+    padding-top: .5vw;
+    width: 6vw;
+    /* offset: 3px 6px;
+    color: rgba(0, 0, 0, 0.25); */
+}
+
+.right .fb{
+    padding-right: 1.5vw;
+    width: 3.5vw;
+}
+
+.right .wa{
+    width: 3.5vw;
+}
+
+/* image background content  */
+.img-bg {
+
+    margin-top: 5.5vw;
+    margin-left: 0;
+    position: relative;
+}
+
+
+.pizza{
+    position: absolute;
+    width: 100vw;
+    height: 50.3vw;
+}
+
+.layer {
+    position: absolute;
+    width: 100vw;
+    height: 50.85vw;
+}
+
+.content{
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 5.55vw;
+    margin-left: 5.5vw;
+}
+
+.content span {
+    padding-left: 1.5vw;
+    font-family: 'Quattrocento';
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 5.05vw;
+    margin-top: 5vw;
+    letter-spacing: 0.09em;
+    line-height: 97%;
+    line-height: 5.4vw;
+    align-items: center;
+}
+
+.content img {
+    width: 60%;
+    height: 5%;
+    padding: 1.5vw 0vw;
+}
+
+.content p {
+    padding-left: 1.5vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25vw;
+    letter-spacing: 0.09em;
+    line-height: 2vm;
+    line-height: 131%;
+    width: 30vw;
+}
+
+/* About us  */
+.about-us .heading{
+    align-items: center;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400vw;
+    font-size: 2vw;
+    padding-top: 60.8vw;
+    padding-bottom: 5vw;
+    text-align: center;
+    vertical-align: center;
+}
+
+.about-us img{
+    width: 30vw;
+    height: 4vh;
+    padding: 1.5vw 0vw;
+}
+
+.about-us .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-us .left-section > img{
+    width: 30vw;
+    height: 3vh;
+    margin-left: 10vw;
+}
+
+.about-us .description p{
+    width: 40vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    padding-left: 10vw;
+    letter-spacing: 0.09em;
+}
+
+.about-us .dough{
+    width: 30vw;
+    height: 20vw;
+    padding-left: 7vw;
+}
+
+/* -------- Menu Section ----------- */
+
+.heading-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    padding-top: 8vw;
+    padding-bottom: 3.5vw;
+    text-align: center;
+}
+
+.heading-description p {
+    display: inline-block;
+    width: 78vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 2.5vw;
+    text-align: left;
+    padding-top: 2vw;
+}
+
+.menu {
+    width: 30vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding-left: 10.5vw;
+    padding-top: 2vw;
+}
+
+.menu-items {
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5vw;
+}
+
+.item-img > img{
+    width: 15vw;
+}
+
+.item-details {
+    width: 17vw;
+    padding: 1.2vh 1vw;
+}
+
+.item-details h3 {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    align-items: center;
+    color: #F2C94C;
+}
+
+.item-details p {
+    padding-top: 1vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+
+    color: #FFFFFF;
+}
+
+.heading-description > img {
+    width: 25vw;
+    height: 4vh;
+}
+
+/* ---------- Find Us ---------- */
+
+.find-us-heading {
+    align-items: center;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    padding-top: 7vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+
+.find-us .border-img {
+    width: 30vw;
+    height: 4vh;
+}
+
+
+.find-us .details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.find-us .description p{
+    width: 38vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+    padding-left: 0.7vw;
+}
+
+
+.find-us .left-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vw;
+}
+
+.find-us .navigation-img{
+    width: 40vw;
+    height: 25vw;
+    padding-left: 3vw;
+}
+
+.find-us .left-section .location-icon {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.find-us .left-section .phone-icon {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.find-us .location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    letter-spacing: 0.09em;
+}
+
+.find-us .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 2vw;
+    padding-top: 1vw;
+
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+}
+
+/* ------- Footer --------- */
+
+.footer {
+    margin-top: 15vw;
+    margin-bottom: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer .mailid img {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.footer .contact img {
+    width: 3vw;
+    padding-right: 1vw;
+}
+
+.footer .footer-img img {
+    width: 10vw;
+}
+
+.footer .footer-img {
+    padding-left: 6vw;
+}
+
+.footer .contact-details {
+    padding-left: 45vw;
+}
+
+.footer .mailid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    letter-spacing: 0.09em;
+}
+
+.footer .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 2vw;
+    padding-top: 1vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2vw;
+    line-height: 2vw;
+    letter-spacing: 0.09em;
+}
